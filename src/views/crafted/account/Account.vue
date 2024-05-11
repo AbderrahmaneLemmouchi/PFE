@@ -53,7 +53,7 @@
                   class="d-flex align-items-center text-gray-500 text-hover-primary me-5 mb-2"
                 >
                   <KTIcon icon-name="profile-circle" icon-class="fs-4 me-1" />
-                  Developer
+                  Developer info
                 </a>
                 <a
                   href="#"
@@ -250,6 +250,27 @@
               Settings
             </router-link>
           </li>
+
+          <li class="nav-item">
+            <router-link
+              to="/crafted/account/teams"
+              class="nav-link text-active-primary me-6"
+              active-class="active"
+            >
+              Team
+            </router-link>
+          </li>
+
+          <li class="nav-item">
+            <router-link
+              to="/crafted/account/history"
+              class="nav-link text-active-primary me-6"
+              active-class="active"
+            >
+              history
+            </router-link>
+          </li>
+          
           <!--end::Nav item-->
         </ul>
       </div>
